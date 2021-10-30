@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Carousel Boiler Plate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/carousel2.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="carousel">
+
+            <div class="item fade">
+                <img src="img/img1.jpg" alt="1" style="width:30%">
+                <img src="img/img2.jpg" alt="2" style="width:30%">
+                <img src="img/img3.jpg" alt="3" style="width:30%">
+            </div>
+
+            <div class="item fade">
+                <img src="img/img2.jpg" alt="2" style="width:30%">
+                <img src="img/img1.jpg" alt="1" style="width:30%">
+                <img src="img/img3.jpg" alt="3" style="width:30%">
+            </div>
+            
+            <div class="item fade">
+                <img src="img/img3.jpg" alt="3" style="width:30%">
+                <img src="img/img2.jpg" alt="2" style="width:30%">
+                <img src="img/img1.jpg" alt="1" style="width:30%">
+            </div>
+            
+            <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+            <div class="next" onclick="plusSlides(1)">&#10095;</div>
+
+            <div class="dot-center">
+                <div class="dot" onclick="currentSlide(1)"></div>
+                <div class="dot" onclick="currentSlide(2)"></div>
+                <div class="dot" onclick="currentSlide(3)"></div>
+            </div>
+            
+        </div>
+        
+        <script src="js/carousel2.js" async defer></script>
+
+    </body>
+</html>
