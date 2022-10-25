@@ -57,3 +57,16 @@ body {
   height: 1em;
   width: 1em;
 }
+
+.links {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+
+.links a {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+}

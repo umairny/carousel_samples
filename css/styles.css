@@ -114,3 +114,16 @@ img {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.links {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+
+.links a {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+}
